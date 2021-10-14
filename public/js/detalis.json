@@ -1,0 +1,33 @@
+{
+    "courses": [
+        {
+            "id":"1",
+            "name":"omar",
+            "detalis":"js",
+            "img":"/imges/a_dreamy_world_1649.jpg",
+            "video":"/imges/api task.mp4"
+        },
+        {
+            "id":"2",
+            "name":"abd",
+            "detalis":"json",
+            "img":"/imges/a_dreamy_world_1952.jpg",
+            "video":"/imges/forloop task.mp4"
+        }, 
+        {
+            "id":"3",
+            "name":"ahman",
+            "detalis":"bootstrap",
+            "img":"/imges/a_dreamy_world_2255.jpg",
+            "video":"/imges/question task.mp4"
+        },
+        {
+            "id":"4",
+            "name":"mhmad",
+            "detalis":"css",
+            "img":"/imges/a_dreamy_world_053224.jpg",
+            "video":"imges/react1.mp4"
+        }
+      
+    ]
+}

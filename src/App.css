@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+.Error{
+    color: red;
+    font-size: 100px;
+    margin-top: 300px;
+    text-align: center;
+    
+}
+.imgslader{
+    width: 100%;
+    height: 90vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+    background-color: rgba(247, 247, 247, 0.575);
+}
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 4px #000000;
+    margin-bottom: 40px;
+
+}
+.cardd{
+    text-align: center;
+    background-color: rgb(233, 230, 230);
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.cardd:hover{
+    text-align: center;
+    background-color: rgb(177, 177, 177);
+    color: white;
+    
+}
+.cards{
+    border-top: 2px solid rgba(59, 59, 59, 0.253);
+    padding: 50px 50px 50px 50px;
+    background-color: rgb(243, 243, 243);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+
+}
+.ddda:hover{
+    box-shadow: 10px 10px 5px grey,
+
+}
+footer{
+    margin-top:50px;
+    justify-content: center;
+    background-color: whitesmoke;
+    padding: 50px 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.deltails{
+    margin-top: 50px;
+    border: 2px solid rgba(104, 102, 102, 0.199);
+    padding: 30px;
+    background-color: rgba(246, 250, 187, 0.192);
+    text-align: right;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.imgcard{
+    width: 100%;
+    height: 200px;
 }
